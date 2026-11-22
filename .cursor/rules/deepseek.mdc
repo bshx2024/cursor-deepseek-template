@@ -1,0 +1,12 @@
+---
+description: DeepSeek AI Coding Best Practices
+globs: *
+---
+
+# DeepSeek Model Selection Guide
+- Use `deepseek-chat` for fast code completions, refactoring, and unit test generation.
+- Use `deepseek-reasoner` for complex algorithm design, distributed system architecture, and deep debugging.
+
+# API Gateway Setup
+- Base URL: `https://apivale.com/v1`
+- Auth Header: `Bearer <YOUR_APIVALE_API_KEY>`
